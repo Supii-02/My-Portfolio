@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(0 62 88);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: rgb(15, 255, 255);
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 1.7rem;
+    position: relative;
+    bottom: -5.5px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.first > div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 2.5rem;
+    position: relative;
+    left: 40px;
+    top: 55px;
+}
+.leftSection .btn{
+    padding: 12px;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+    cursor: pointer;
+    
+}
+.leftSection .btn a{
+    text-decoration: none;
+    color: black;
+}
+#word{
+    text-decoration: none;
+    color: white;
+}
+.leftSection .btn :hover{
+   
+    font-size: 1.05rem;
+    
+}
+
+.rightSection img{
+    width: 120%;
+    margin:40px 0;
+    position: relative;
+    left: -80px;
+}
+.purple{
+    color: aqua;
+}
+#element{
+    color: white;
+}
+.name{
+    color: aqua;
+}
+.identity{
+    color: aqua;
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    position: relative;
+    left: 30px;
+
+}
+.second h1{
+    font-size: 1.9rem;
+}
+.third{
+    max-width: 80vw;
+    margin: auto;
+    position: relative;
+    left: 30px;
+}
+.third h1{
+    font-size: 1.9rem;
+}
+.fourth{
+    max-width: 80vw;
+    margin: auto;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    bottom: 20px;
+}
+.fourth h1{
+    font-size: 1.9rem;
+}
+.fifth{
+    max-width: 80vw;
+    margin: auto;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    bottom: 20px;
+}
+.fifth h1{
+    font-size: 1.9rem;
+}
+.shift{
+    position: relative;
+    left: 50px;
+}
+.shifttocenter{
+    position: relative;
+    left: 180px;
+}
+main hr{
+    border: 0;
+    background: rgb(0, 124, 124);
+    height: 1.2px;
+    margin: 30px 100px;
+}
+.textgrey{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.small{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.big{
+    font-weight: 500;
+    font-size: 30px;
+    color: aqua;
+}
+footer{
+    background-color: rgb(1, 45, 65);
+    height: 60px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 122px;
+}
+footer div a{
+    color: white;
+    text-decoration: none;
+}
+.footer-fourth{
+    /* font-size: 20px; */
+    position: relative;
+    top: -1px;
+}
+.fifth a{
+    color: white;
+    text-decoration: none;
+    font-style: initial;
+    font-size: small;
+}
